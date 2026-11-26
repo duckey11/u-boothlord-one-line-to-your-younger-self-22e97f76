@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "Spend the $20 you stole from Grandma Rose's purse, kid, you'll spend twenty years trying to repay it in flowers she never lived to smell."
+ENTRY = "Spend the $20 you stole from Grandma Rose's purse, kid. You'll spend twenty years repaying it in flowers she never lived to smell."
 
 # Guard: exactly one line, 1-200 chars, no trailing newline.
 assert 1 <= len(ENTRY) <= 200, f"entry length {len(ENTRY)} out of bounds"
